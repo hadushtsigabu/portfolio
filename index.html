@@ -3,225 +3,682 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hadush Tsigabu | Portfolio</title>
+
+    <meta
+      name="description"
+      content="Portfolio of Hadush Tsigabu Tsegay — Full-Stack Developer specializing in React, NestJS, PostgreSQL, AI integration, and React Native."
+    />
+
+    <title>Hadush Tsigabu | Full-Stack Developer</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <!-- ================= HEADER ================= -->
     <header class="site-header">
       <div class="container header-inner">
-        <div class="brand">
+        <a href="#" class="brand">
           <span class="logo">HT</span>
+
           <div>
             <h1>Hadush Tsigabu</h1>
-            <p>Web Developer & Designer</p>
+            <p>Full-Stack Developer</p>
           </div>
-        </div>
+        </a>
+
         <nav class="nav-links">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
     </header>
 
     <main>
+      <!-- ================= HERO ================= -->
       <section class="hero">
         <div class="container hero-content">
-          <div>
-            <p class="eyebrow">Hello, I’m</p>
-            <h2>Hadush Tsigabu</h2>
-            <p>
-              IT Engineer and full-stack developer building secure web
-              applications, AI-powered solutions, and responsive product
-              experiences for businesses and digital platforms.
+          <div class="hero-main">
+            <p class="eyebrow">FULL-STACK DEVELOPER</p>
+
+            <h2>
+              Building practical,
+              <span>secure and scalable</span>
+              software.
+            </h2>
+
+            <p class="hero-description">
+              I'm Hadush Tsigabu Tsegay, an Information Technology graduate
+              and full-stack developer focused on building modern web
+              applications, REST APIs, secure backend systems, AI-integrated
+              solutions, and mobile applications.
             </p>
+
+            <div class="tech-line">
+              React · TypeScript · JavaScript · NestJS · Node.js · PostgreSQL ·
+              React Native
+            </div>
+
             <div class="hero-actions">
-              <a class="button primary" href="#projects">See Work</a>
-              <a class="button secondary" href="#contact">Get in Touch</a>
+              <a class="button primary" href="#projects">
+                View My Projects
+              </a>
+
+              <a class="button secondary" href="#contact">
+                Contact Me
+              </a>
             </div>
           </div>
+
           <div class="hero-card">
             <div class="hero-card-inner">
-              <p>Available for freelance work and new opportunities.</p>
+              <span class="status-dot"></span>
+
+              <p class="hero-card-label">CURRENT FOCUS</p>
+
+              <h3>Full-Stack & Backend Development</h3>
+
+              <p>
+                REST APIs, authentication, RBAC, databases, AI integration,
+                real-time systems and mobile applications.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- ================= ABOUT ================= -->
       <section id="about" class="section container">
         <div class="section-heading">
+          <p class="eyebrow">ABOUT</p>
+
           <h2>About Me</h2>
+
           <p>
-            A passionate developer focused on clean design and user-friendly web
-            experiences.
+            Developer focused on solving real problems with reliable software.
           </p>
         </div>
+
         <div class="content-grid">
-          <div>
+          <div class="about-content">
             <p>
-              I am a motivated IT graduate with experience in secure backend
-              architecture, responsive frontend development, and AI-integrated
-              web solutions. My work emphasizes clean code, performance, and
-              business-ready user experiences.
+              I am an Information Technology graduate from Mekelle Institute
+              of Technology with a strong interest in full-stack development,
+              backend engineering, and software architecture.
+            </p>
+
+            <p>
+              I have experience developing web applications, REST APIs,
+              authentication systems, role-based access control, database
+              systems, AI-integrated applications, real-time communication
+              systems, and mobile applications.
+            </p>
+
+            <p>
+              I enjoy turning ideas into functional software with clean
+              architecture, maintainable code, responsive interfaces, and
+              practical user experiences.
             </p>
           </div>
+
           <div class="stats-grid">
             <div class="stat-card">
-              <strong>5+</strong>
-              <span>Projects Completed</span>
+              <strong>3.97/4.00</strong>
+              <span>Graduation CGPA</span>
             </div>
+
             <div class="stat-card">
-              <strong>Responsive</strong>
-              <span>Mobile-first design</span>
+              <strong>Full-Stack</strong>
+              <span>Web & Backend Development</span>
             </div>
+
             <div class="stat-card">
-              <strong>Fast</strong>
-              <span>Optimized performance</span>
+              <strong>React Native</strong>
+              <span>Mobile Development</span>
+            </div>
+
+            <div class="stat-card">
+              <strong>AI + APIs</strong>
+              <span>Integration & Application Development</span>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- ================= PROJECTS ================= -->
       <section id="projects" class="section section-alt">
         <div class="container">
           <div class="section-heading">
+            <p class="eyebrow">SELECTED WORK</p>
+
             <h2>Projects</h2>
+
             <p>
-              Recent work that demonstrates clean interfaces, thoughtful
-              layouts, and practical features.
+              A selection of personal, academic, and professional development
+              projects demonstrating my technical experience.
             </p>
           </div>
+
           <div class="project-grid">
-            <article class="project-card">
-              <h3>CropGuard AI</h3>
+
+            <!-- SHEQLEE -->
+            <article class="project-card featured-project">
+              <div class="project-top">
+                <span class="project-type">PROFESSIONAL PROJECT</span>
+                <span class="project-status live">LIVE DEMO</span>
+              </div>
+
+              <h3>Sheqlee Platform</h3>
+
               <p>
-                AI-enabled plant disease detection system with a secure NestJS +
-                PostgreSQL backend and FastAPI model inference services.
+                A full-stack platform connecting freelancers and employers.
+                I worked on backend development, authentication, job posting
+                functionality, category management, and API development.
               </p>
+
+              <div class="project-tech">
+                <span>React</span>
+                <span>NestJS</span>
+                <span>Node.js</span>
+                <span>PostgreSQL</span>
+                <span>REST API</span>
+                <span>JWT</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  class="button primary small"
+                  href="https://sheqleeclient.netlify.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Client Application
+                </a>
+
+                <a
+                  class="button secondary small"
+                  href="https://sheqleeadmin.netlify.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Admin Application
+                </a>
+              </div>
+
+              <div class="demo-box">
+                <strong>Demo Access</strong>
+
+                <p>
+                  Dedicated demo accounts are available for employer
+                  evaluation. Please use only the provided demo accounts.
+                </p>
+
+                <div class="demo-account">
+                  <strong>Freelancer</strong>
+                  <span>Email: enbakomtsigabu@gmail.com</span>
+                  <span>Password: Password@123</span>
+                </div>
+
+                <div class="demo-account">
+                  <strong>Employer</strong>
+                  <span>Email: neoplc@gmail.com</span>
+                  <span>Password: Password@123</span>
+                </div>
+
+                <div class="demo-account">
+                  <strong>Admin</strong>
+                  <span>Email: hadushtsigabu11@gmail.com</span>
+                  <span>Password: Password@123</span>
+                </div>
+              </div>
             </article>
-            <article class="project-card">
+
+            <!-- XPERT -->
+            <article class="project-card featured-project">
+              <div class="project-top">
+                <span class="project-type">FULL-STACK PROJECT</span>
+                <span class="project-status live">LIVE DEMO</span>
+              </div>
+
               <h3>Xpert Money Transfer</h3>
+
               <p>
-                Financial transaction platform with responsive React UI, secure
-                backend services, and reliable data processing.
+                A money-transfer application developed with a focus on
+                transaction workflows, authentication, user management,
+                responsive interfaces, and backend API integration.
               </p>
+
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>REST API</span>
+                <span>Database</span>
+                <span>Authentication</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  class="button primary small"
+                  href="https://xpertsmoneytransfer.netlify.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Application
+                </a>
+              </div>
+
+              <div class="demo-box">
+                <strong>Demo Access</strong>
+
+                <div class="demo-account">
+                  <strong>Admin</strong>
+                  <span>Phone: 0930908732</span>
+                  <span>Password: Password@123</span>
+                </div>
+
+                <div class="demo-account">
+                  <strong>Client</strong>
+                  <span>Phone: 0947618181</span>
+                  <span>Password: Password@123</span>
+                </div>
+              </div>
             </article>
+
+            <!-- BAHRE HASAB -->
+            <article class="project-card featured-project">
+              <div class="project-top">
+                <span class="project-type">MOBILE PROJECT</span>
+                <span class="project-status">PROJECT</span>
+              </div>
+
+              <h3>Bahre Hasab — Ethiopian Calendar App</h3>
+
+              <p>
+                A React Native mobile application for Ethiopian calendar
+                calculations and Bahre Hasab. The application includes
+                Ethiopian calendar conversion, feasts, fasting periods,
+                Fasika calculations, Nineveh Fast, and a Tigrigna interface.
+              </p>
+
+              <div class="project-tech">
+                <span>React Native</span>
+                <span>Expo</span>
+                <span>TypeScript</span>
+                <span>JavaScript</span>
+                <span>Ethiopian Calendar</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  class="button primary small"
+                  href="https://github.com/hadushtsigabu/bahre-hasab-app"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  GitHub Repository
+                </a>
+              </div>
+            </article>
+
+            <!-- CROPGUARD -->
             <article class="project-card">
-              <h3>Real-Time Chat Application</h3>
+              <div class="project-top">
+                <span class="project-type">AI / FULL-STACK</span>
+                <span class="project-status">PROJECT</span>
+              </div>
+
+              <h3>CropGuard AI</h3>
+
               <p>
-                Full-stack communication app built with React, NestJS,
-                WebSockets, and JWT authentication for instant messaging.
+                An AI-powered plant disease detection system combining
+                machine-learning inference with a full-stack application.
+                The project demonstrates API integration, backend architecture,
+                database management, and AI model integration.
               </p>
+
+              <div class="project-tech">
+                <span>NestJS</span>
+                <span>PostgreSQL</span>
+                <span>FastAPI</span>
+                <span>Python</span>
+                <span>AI / ML</span>
+              </div>
             </article>
+
+            <!-- DIGITAL BANKING -->
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-type">BACKEND / FULL-STACK</span>
+                <span class="project-status">PROJECT</span>
+              </div>
+
+              <h3>Digital Banking System</h3>
+
+              <p>
+                A full-stack banking system designed with role-based access
+                and structured backend architecture. The system includes
+                customer, teller, branch manager, and administrator roles.
+              </p>
+
+              <div class="project-tech">
+                <span>NestJS</span>
+                <span>Prisma</span>
+                <span>PostgreSQL</span>
+                <span>React</span>
+                <span>Vite</span>
+                <span>RBAC</span>
+              </div>
+            </article>
+
+            <!-- CHAT -->
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-type">REAL-TIME APPLICATION</span>
+                <span class="project-status">PROJECT</span>
+              </div>
+
+              <h3>Real-Time Chat Application</h3>
+
+              <p>
+                A full-stack communication application with real-time
+                messaging, authentication, and WebSocket-based communication.
+              </p>
+
+              <div class="project-tech">
+                <span>React</span>
+                <span>NestJS</span>
+                <span>WebSockets</span>
+                <span>JWT</span>
+                <span>REST API</span>
+              </div>
+            </article>
+
+            <!-- LEARNGEEZ -->
+            <article class="project-card">
+              <div class="project-top">
+                <span class="project-type">EDUCATIONAL PROJECT</span>
+                <span class="project-status">PROJECT</span>
+              </div>
+
+              <h3>LearnGeez</h3>
+
+              <p>
+                An educational application focused on helping users learn and
+                practice Ge'ez through an interactive digital experience.
+              </p>
+
+              <div class="project-tech">
+                <span>Web Development</span>
+                <span>JavaScript</span>
+                <span>UI Development</span>
+              </div>
+            </article>
+
           </div>
         </div>
       </section>
 
-      <section id="experience" class="section section-alt">
+      <!-- ================= EXPERIENCE ================= -->
+      <section id="experience" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">EXPERIENCE</p>
+
+          <h2>Work Experience</h2>
+
+          <p>
+            Professional and practical software development experience.
+          </p>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>IT / Backend Developer Intern</h3>
+              <p>Metnee System PLC — Remote</p>
+            </div>
+
+            <span>Oct 2025 – Jan 2026</span>
+          </div>
+
+          <ul>
+            <li>
+              Developed secure REST API endpoints for authentication,
+              job postings, and category management.
+            </li>
+
+            <li>
+              Worked on backend architecture and database-driven features
+              for the Sheqlee platform.
+            </li>
+
+            <li>
+              Implemented authentication and authorization functionality
+              for different application roles.
+            </li>
+
+            <li>
+              Collaborated on full-stack application development and
+              API integration.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS ================= -->
+      <section id="skills" class="section section-alt">
         <div class="container">
           <div class="section-heading">
-            <h2>Work Experience</h2>
-            <p>
-              Practical experience building backend systems, APIs, and
-              data-driven applications during a remote internship and academic
-              projects.
+            <p class="eyebrow">TECHNICAL SKILLS</p>
+
+            <h2>What I Work With</h2>
+          </div>
+
+          <div class="skills-grid">
+
+            <div class="skill-group">
+              <h3>Frontend</h3>
+
+              <div class="skill-list">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>React.js</span>
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Backend</h3>
+
+              <div class="skill-list">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>NestJS</span>
+                <span>REST APIs</span>
+                <span>WebSockets</span>
+                <span>JWT</span>
+                <span>RBAC</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Databases</h3>
+
+              <div class="skill-list">
+                <span>PostgreSQL</span>
+                <span>Prisma</span>
+                <span>MongoDB</span>
+                <span>Database Design</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Mobile</h3>
+
+              <div class="skill-list">
+                <span>React Native</span>
+                <span>Expo</span>
+                <span>TypeScript</span>
+                <span>EAS Build</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Programming</h3>
+
+              <div class="skill-list">
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>Python</span>
+                <span>Java</span>
+                <span>Dart</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Tools & DevOps</h3>
+
+              <div class="skill-list">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Docker</span>
+                <span>Postman</span>
+                <span>VS Code</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EDUCATION ================= -->
+      <section id="education" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">EDUCATION</p>
+
+          <h2>Education</h2>
+        </div>
+
+        <div class="education-card">
+          <div>
+            <h3>BSc in Information Technology</h3>
+
+            <p class="institution">
+              Mekelle Institute of Technology (MIT)
             </p>
           </div>
-          <div class="project-grid">
-            <article class="project-card">
-              <h3>IT / Backend Developer Intern</h3>
-              <p>
-                Metnee System PLC — Remote
-                <br />Oct 2025 – Jan 2026 <br />Built secure REST API endpoints
-                for user authentication, job postings, and category management
-                for the Sheqlee platform.
-              </p>
-            </article>
-            <article class="project-card">
-              <h3>Academic Projects</h3>
-              <p>
-                Delivered secure full-stack applications, AI integration, and
-                responsive user experiences using modern web and backend stacks.
-              </p>
-            </article>
+
+          <div class="education-result">
+            <strong>3.97 / 4.00</strong>
+            <span>CGPA</span>
           </div>
         </div>
       </section>
 
-      <section id="skills" class="section container">
-        <div class="section-heading">
-          <h2>Skills</h2>
-          <p>Tools and technologies used to create modern web experiences.</p>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-card">HTML5</div>
-          <div class="skill-card">CSS3</div>
-          <div class="skill-card">JavaScript</div>
-          <div class="skill-card">TypeScript</div>
-          <div class="skill-card">React.js</div>
-          <div class="skill-card">Node.js</div>
-          <div class="skill-card">NestJS</div>
-          <div class="skill-card">PostgreSQL</div>
-          <div class="skill-card">MongoDB</div>
-          <div class="skill-card">Docker</div>
-          <div class="skill-card">REST APIs</div>
-          <div class="skill-card">Git & GitHub</div>
-        </div>
-      </section>
-
+      <!-- ================= CONTACT ================= -->
       <section id="contact" class="section section-alt">
         <div class="container contact-section">
-          <div>
-            <h2>Contact</h2>
+
+          <div class="section-heading">
+            <p class="eyebrow">GET IN TOUCH</p>
+
+            <h2>Let's Work Together</h2>
+
             <p>
-              Interested in working together? Send a message and let’s talk
-              about your next project.
+              I'm interested in software development opportunities,
+              full-stack development roles, backend engineering, and
+              challenging technology projects.
             </p>
           </div>
-          <div class="contact-card">
-            <p>Name</p>
-            <span>Hadush Tsigabu Tsegay</span>
+
+          <div class="contact-grid">
+
+            <div class="contact-card">
+              <p>Name</p>
+              <strong>Hadush Tsigabu Tsegay</strong>
+            </div>
+
+            <div class="contact-card">
+              <p>Email</p>
+
+              <a href="mailto:Hadushtsigabu11@gmail.com">
+                Hadushtsigabu11@gmail.com
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <p>Phone</p>
+
+              <a href="tel:+251930908732">
+                +251 930 908 732
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <p>Telegram</p>
+
+              <a
+                href="https://t.me/httatall"
+                target="_blank"
+                rel="noopener"
+              >
+                @httatall
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <p>GitHub</p>
+
+              <a
+                href="https://github.com/hadushtsigabu"
+                target="_blank"
+                rel="noopener"
+              >
+                github.com/hadushtsigabu
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <p>LinkedIn</p>
+
+              <a
+                href="https://www.linkedin.com/in/hadush-tsigabu"
+                target="_blank"
+                rel="noopener"
+              >
+                LinkedIn Profile
+              </a>
+            </div>
+
           </div>
-          <div class="contact-card">
-            <p>Phone</p>
-            <a href="tel:+251930908732">0930908732</a>
-          </div>
-          <div class="contact-card">
-            <p>Email</p>
-            <a href="mailto:Hadushtsigabu11@gmail.com"
-              >Hadushtsigabu11@gmail.com</a
-            >
-          </div>
-          <div class="contact-card">
-            <p>GitHub</p>
-            <a
-              href="https://www.github.com/hadushtsigabu"
-              target="_blank"
-              rel="noopener"
-              >github.com/hadushtsigabu</a
-            >
-          </div>
-          <div class="contact-card">
-            <p>LinkedIn</p>
-            <a
-              href="https://www.linkedin.com/in/hadush-tsigabu"
-              target="_blank"
-              rel="noopener"
-              >linkedin.com/in/hadush-tsigabu</a
-            >
-          </div>
-          <div class="contact-card">
-            <p>Telegram</p>
-            <span>@httatall</span>
-          </div>
+
         </div>
       </section>
     </main>
 
+    <!-- ================= FOOTER ================= -->
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>© 2026 Hadush Tsigabu. Built with HTML & CSS.</p>
+        <p>
+          © 2026 Hadush Tsigabu Tsegay. Built with HTML & CSS.
+        </p>
+
+        <div>
+          <a
+            href="https://github.com/hadushtsigabu"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+
+          <a href="#contact">Contact</a>
+        </div>
       </div>
     </footer>
   </body>
